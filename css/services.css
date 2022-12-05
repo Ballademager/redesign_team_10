@@ -1,14 +1,69 @@
 div {
-  background-color: aquamarine;
+  background-color: rgb(155, 220, 201);
+}
+
+#hvorfor {
+  margin-left: 11%;
+  margin-right: 8%;
+  margin-top: 7%;
+}
+
+#hvorfor p {
+  letter-spacing: 0.4px;
+  font-size: 110%;
+  margin-top: 6%;
+  line-height: 25px;
 }
 
 img {
-  width: 60%;
+  width: 80%;
+  height: 85%;
+  display: block;
+  margin-left: 3%;
+  margin-top: 11%;
+}
+
+#second {
+  border-style: solid;
+  margin-left: 6.5%;
+  margin-right: 45%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#pris {
+  margin-left: 6%;
+}
+
+#tjek {
+  margin-top: 6%;
+  margin-left: 14%;
+}
+
+#tjek p {
+  letter-spacing: 0.4px;
+  font-size: 110%;
+  margin-top: 4%;
+  line-height: 25px;
+}
+
+#review {
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+#review p {
+  letter-spacing: 0.4px;
+  font-size: 110%;
+  margin-top: 4%;
+  line-height: 25px;
+  margin-right: 12%;
 }
 
 main {
   display: grid;
   grid-template-rows: 5fr 1fr 5fr;
+  margin: 5%;
 }
 
 #first {
