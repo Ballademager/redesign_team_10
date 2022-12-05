@@ -15,7 +15,7 @@ div {
   line-height: 25px;
 }
 
-img {
+#kat {
   width: 80%;
   height: 85%;
   display: block;
@@ -33,6 +33,14 @@ img {
 
 #pris {
   margin-left: 6%;
+  font-size: 135%;
+  font-weight: 500;
+}
+
+#tjek_div {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 8fr 1fr;
 }
 
 #tjek {
@@ -47,6 +55,14 @@ img {
   line-height: 25px;
 }
 
+.tjek_tegn {
+  margin-top: 12%;
+  margin-left: 16%;
+  width: 80%;
+  padding-bottom: 56%;
+  height: auto;
+}
+
 #review {
   margin-top: 4%;
   margin-left: 10%;
@@ -58,6 +74,25 @@ img {
   margin-top: 4%;
   line-height: 25px;
   margin-right: 12%;
+}
+
+#p1,
+#tjek1 {
+  grid-row: 1;
+}
+
+#p2,
+#tjek2 {
+  grid-row: 2;
+}
+
+#p3,
+#tjek3 {
+  grid-row: 3;
+}
+
+.overskrift {
+  font-size: 170%;
 }
 
 main {
