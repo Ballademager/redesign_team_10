@@ -1,0 +1,22 @@
+div {
+  background-color: aquamarine;
+}
+
+img {
+  width: 60%;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 5fr 1fr 5fr;
+}
+
+#first {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+#third {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
