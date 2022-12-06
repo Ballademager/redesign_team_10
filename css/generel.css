@@ -17,6 +17,17 @@ ul {
   overflow-x: hidden;
 }
 
+.nav {
+  margin-top: -5%;
+  margin-bottom: 8%;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #426174, rgba(0, 0, 0, 0));
+}
+
 #nav_menu {
   margin: 1%;
   margin-left: 50%;
@@ -49,7 +60,6 @@ ul {
   margin-top: 150px;
   max-width: 100%;
   padding: 30px 15px;
-  background: #f8f6f4;
   color: #262626;
 }
 
@@ -87,10 +97,19 @@ ul {
 p,
 h1,
 h2,
-h3 {
+h3,
+nav {
   font-family: "Roboto";
 }
 
 q {
   font-family: "Lato";
+}
+
+.copyright_farve {
+  color: #b0b0b0;
+}
+
+.body {
+  background-color: #f2efeb;
 }
