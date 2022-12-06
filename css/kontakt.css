@@ -14,7 +14,6 @@ ol,ul{
   width: 115px;
   float: left;
   margin-left: 20px;
-  border: 1px solid #000;
   
 }
 
@@ -22,14 +21,14 @@ ol,ul{
   display: block;
   padding: 7px;
   text-decoration: none;
-  background-color: #fff;
-  color: #009;
+  background-color:#F2EFEB;
+  color: #262626;
   text-align: center;
 }
 
 #nav_menu a:hover {
-  background-color: #009;
-  color: #fff;
+  background-color:#E5E2DE;
+  color: #F26430;
 }
 
 
@@ -91,8 +90,8 @@ h2 {
   margin-top: 150px;
   width: 100%;
   padding: 30px 15px;
-  background: #262626;
-  color: #F2EFEB;
+  background: #F8F6F4;
+  color: #262626;
 }
 
 .footer div{
