@@ -5,6 +5,11 @@ ul {
   list-style: none;
 }*/
 
+.logo {
+  margin-left: 2%;
+  width: 18%;
+}
+
 .body {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -69,3 +74,21 @@ ul {
 }
 
 /*-----------------------------------------------------------LAYOUT/DESIGN jaaaay---------------------------------------*/
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Regular.ttf");
+}
+
+p,
+h1,
+h2 {
+  font-family: "Roboto";
+}
+
+q {
+  font-family: "Lato";
+}
