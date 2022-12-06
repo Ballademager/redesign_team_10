@@ -20,10 +20,11 @@ img {
 }
 
 #in {
-  width: 100%;
+  width: 120%;
   height: auto;
   grid-row: 2;
   margin-top: -10;
+  margin-left: 0;
 }
 
 #p_in {
@@ -44,6 +45,8 @@ h2 {
 #indhold {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 1fr;
   margin: 5%;
+  margin-right: 15%;
+  margin-bottom: 5%;
 }
