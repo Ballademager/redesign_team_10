@@ -3,11 +3,6 @@ ul {
   list-style: none;
 }*/
 
-#body_kontakt {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
 #nav_menu {
   margin: 1%;
   margin-left: 50%;

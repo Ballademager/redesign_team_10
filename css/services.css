@@ -1,11 +1,6 @@
-div {
-  background-color: rgb(155, 220, 201);
-}
-
 #hvorfor {
   margin-left: 11%;
   margin-right: 8%;
-  margin-top: 7%;
 }
 
 #hvorfor p {
@@ -20,7 +15,6 @@ div {
   height: 85%;
   display: block;
   margin-left: 3%;
-  margin-top: 11%;
 }
 
 #second {
