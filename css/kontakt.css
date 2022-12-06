@@ -85,3 +85,33 @@ h2 {
   margin-right: 15%;
   margin-bottom: 5%;
 }
+
+.footer{
+  display: flex;
+  margin-top: 150px;
+  width: 100%;
+  padding: 30px 15px;
+  background: #262626;
+  color: #F2EFEB;
+}
+
+.footer div{
+  text-align: center;
+}
+
+/*.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+}*/
+
+.col-2{
+  flex-grow: 2;
+}
+
+.col-2 p{
+  margin-top: 10%;
+}
+
+.col-3 {
+  margin-top: 4%;
+}
