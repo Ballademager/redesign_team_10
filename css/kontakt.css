@@ -1,12 +1,18 @@
-ol,ul{
+/*ol,
+ul {
   list-style: none;
+}*/
+
+#body_kontakt {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
-#nav_menu{
+#nav_menu {
   margin: 1%;
   margin-left: 50%;
   width: 900px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #nav_menu li {
@@ -14,23 +20,21 @@ ol,ul{
   width: 115px;
   float: left;
   margin-left: 20px;
-  
 }
 
-#nav_menu a{
+#nav_menu a {
   display: block;
   padding: 7px;
   text-decoration: none;
-  background-color:#F2EFEB;
+  background-color: #f2efeb;
   color: #262626;
   text-align: center;
 }
 
 #nav_menu a:hover {
-  background-color:#E5E2DE;
-  color: #F26430;
+  background-color: #e5e2de;
+  color: #f26430;
 }
-
 
 main {
   display: grid;
@@ -85,16 +89,16 @@ h2 {
   margin-bottom: 5%;
 }
 
-.footer{
+.footer {
   display: flex;
   margin-top: 150px;
   width: 100%;
   padding: 30px 15px;
-  background: #F8F6F4;
+  background: #f8f6f4;
   color: #262626;
 }
 
-.footer div{
+.footer div {
   text-align: center;
 }
 
@@ -103,11 +107,11 @@ h2 {
   margin-bottom: 30px;
 }*/
 
-.col-2{
+.col-2 {
   flex-grow: 2;
 }
 
-.col-2 p{
+.col-2 p {
   margin-top: 10%;
 }
 
