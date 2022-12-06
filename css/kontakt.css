@@ -1,0 +1,49 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#first {
+  grid-column: 1;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+#second {
+  grid-column: 2;
+  margin-top: 10%;
+}
+
+img {
+  width: 50%;
+  left: 0%;
+}
+
+#in {
+  width: 100%;
+  height: auto;
+  grid-row: 2;
+  margin-top: -10;
+}
+
+#p_in {
+  grid-row: 2;
+  margin-top: 2%;
+}
+
+#linkedin {
+  border-style: solid;
+  background-color: rgba(78, 99, 99, 0.178);
+  margin-right: 16%;
+}
+
+h2 {
+  margin: 0;
+}
+
+#indhold {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 4fr 1fr;
+  margin: 5%;
+}
