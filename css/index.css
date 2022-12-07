@@ -26,4 +26,6 @@ main {
 #index_citat {
   grid-column: 2/4;
   justify-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
