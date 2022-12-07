@@ -25,9 +25,10 @@ img {
 }
 
 #in {
-  width: 50%;
+  width: 80%;
   height: auto;
   grid-row: 2;
+  margin-left: 25%;
 }
 
 #p_in {
