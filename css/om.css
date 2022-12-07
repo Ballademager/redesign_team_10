@@ -1,8 +1,9 @@
-body {
+/*Jeg har udkommenteret denne, da jeg har lavet en class="body" i generel.css, så alle headere ser ens ud :) _Julie
+/*body {
   background-color: #f2efeb;
   margin: 0;
   padding: 0;
-}
+}*/
 
 main {
   position: relative;
