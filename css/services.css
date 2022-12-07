@@ -33,8 +33,9 @@
 
 #tjek_div {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 8fr 1fr;
+  margin-bottom: 0;
 }
 
 #tjek {
@@ -45,7 +46,6 @@
 #tjek p {
   letter-spacing: 0.4px;
   font-size: 110%;
-  margin-top: 4%;
   line-height: 25px;
 }
 
@@ -63,11 +63,16 @@
 }
 
 #review q {
-  letter-spacing: 0.4px;
+  letter-spacing: 0.5px;
   font-size: 110%;
   margin-top: 4%;
   line-height: 25px;
   margin-right: 12%;
+}
+
+#quote1 {
+  margin-top: 8%;
+  margin-bottom: 10%;
 }
 
 #p1,
@@ -85,13 +90,49 @@
   grid-row: 3;
 }
 
+#p4,
+#tjek4 {
+  grid-row: 4;
+}
+
+#p5,
+#tjek5 {
+  grid-row: 5;
+}
+
+#p6,
+#tjek6 {
+  grid-row: 6;
+}
+
+#p7,
+#tjek7 {
+  grid-row: 7;
+}
+
+#p8,
+#tjek8 {
+  grid-row: 8;
+}
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
 .overskrift {
   font-size: 170%;
 }
 
 main {
   display: grid;
-  grid-template-rows: 5fr 1fr 5fr;
+  grid-template-rows: auto auto auto;
   margin: 5%;
 }
 
