@@ -1,14 +1,14 @@
-body {
-  background-color: #1d4259;
+/*body {
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
-}
-header {
+}*/
+/*header {
   background-color: #f2efeb;
   margin-top: 0;
   margin-left: 0;
   padding: 0;
-}
+}*/
 main {
   position: relative;
   margin: auto;
@@ -16,6 +16,7 @@ main {
   justify-self: center;
   max-width: 1200px;
   background-color: #f2efeb;
+  margin-top: 2%;
 }
 
 section {

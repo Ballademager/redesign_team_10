@@ -1,0 +1,115 @@
+/*----------------------------------HEADER OG FOOTER Wuhuuu------------------------------------------------------*/
+
+/*ol,
+ul {
+  list-style: none;
+}*/
+
+.logo {
+  margin-left: 2%;
+  width: 15%;
+}
+
+.body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.nav {
+  margin-top: -5%;
+  margin-bottom: 8%;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #426174, rgba(0, 0, 0, 0));
+}
+
+#nav_menu {
+  margin: 1%;
+  margin-left: 50%;
+  width: 900px;
+}
+
+#nav_menu li {
+  display: block;
+  width: 115px;
+  float: left;
+  margin-left: 20px;
+}
+
+#nav_menu a {
+  display: block;
+  padding: 7px;
+  text-decoration: none;
+  background-color: #f2efeb;
+  color: #262626;
+  text-align: center;
+}
+
+#nav_menu a:hover {
+  background-color: #e5e2de;
+  color: #f26430;
+}
+
+.footer {
+  display: flex;
+  margin-top: 150px;
+  max-width: 100%;
+  padding: 30px 15px;
+  color: #262626;
+}
+
+.footer div {
+  text-align: center;
+}
+
+/*.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+  }*/
+
+.col-2 {
+  flex-grow: 2;
+}
+
+.col-2 p {
+  margin-top: 10%;
+}
+
+.col-3 {
+  margin-top: 4%;
+}
+
+/*-----------------------------------------------------------LAYOUT/DESIGN jaaaay---------------------------------------*/
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+
+p,
+h1,
+h2,
+h3,
+nav {
+  font-family: "Roboto";
+}
+
+q {
+  font-family: "Lato";
+}
+
+.copyright_farve {
+  color: #b0b0b0;
+}
+
+.body {
+  background-color: #f2efeb;
+}
