@@ -87,11 +87,11 @@ hr {
 /*-----------------------------------------------------------LAYOUT/DESIGN jaaaay---------------------------------------*/
 @font-face {
   font-family: "Lato";
-  src: url("fonts/lato/Lato-Bold.ttf");
+  src: url("../fonts/lato/Lato-Bold.ttf");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("fonts/roboto/Roboto-Regular.ttf");
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
 }
 
 p,
