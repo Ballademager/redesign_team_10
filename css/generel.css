@@ -143,8 +143,12 @@ q {
   color: #b0b0b0;
 }
 
+.body {
+  background-color: #ffffff;
+}
+
 .textbox {
-  background-color: #f2efeb;
+  background-color: #e5e2de;
   max-width: 65ch;
   border-radius: 10px;
   padding: 3%;
