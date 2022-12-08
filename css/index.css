@@ -23,9 +23,16 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-#index_citat {
+section {
+  min-width: 100%;
+  margin: 0;
+  display: grid;
+}
+/* #index_citat {
   grid-column: 2/4;
-  justify-self: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   margin-top: 5%;
   margin-bottom: 5%;
-}
+} */
