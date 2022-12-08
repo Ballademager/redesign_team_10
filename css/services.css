@@ -36,13 +36,13 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   row-gap: 5%;
   grid-template-columns: 8fr 1fr;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
-#tjek {
+/* #tjek {
   margin-top: 6%;
   margin-left: 14%;
-}
+} */
 
 #tjek p {
   /* letter-spacing: 0.4px; */
@@ -151,4 +151,5 @@ main {
 #third {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: 7%;
 }

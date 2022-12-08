@@ -88,9 +88,10 @@ li {
 
 .footer {
   display: flex;
-  max-width: 100%;
+  /* max-width: 100%; */
   color: #262626;
   background-color: #f2efeb;
+  padding-left: 1%;
 }
 
 .footer div {
@@ -107,7 +108,10 @@ li {
 }
 
 .col-2 p {
-  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 10%; */
 }
 
 .col-3 {
