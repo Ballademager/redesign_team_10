@@ -8,7 +8,6 @@ ul {
   display: grid;
   grid-template-rows: auto 1fr auto;
   max-width: 100%;
-  overflow-x: hidden;
   background-color: #ffffff;
   margin: 0;
 }
@@ -89,9 +88,7 @@ li {
 
 .footer {
   display: flex;
-  margin-top: 150px;
   max-width: 100%;
-  padding: 30px 15px;
   color: #262626;
   background-color: #f2efeb;
 }
@@ -126,7 +123,9 @@ li {
   font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Regular.ttf");
 }
-
+p {
+  max-width: 65ch;
+}
 p,
 h1,
 h2,
@@ -149,7 +148,6 @@ q {
 
 .textbox {
   background-color: #e5e2de;
-  max-width: 65ch;
   border-radius: 10px;
   padding: 3%;
   line-height: 1.5;

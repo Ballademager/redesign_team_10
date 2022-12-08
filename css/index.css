@@ -1,8 +1,9 @@
 #index_grid {
-  grid-column: 1/5;
+  /* grid-column: 1/5; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr 6fr;
+  padding-bottom: 3%;
 }
 
 #index_billede {
@@ -12,27 +13,27 @@
 }
 #index_p {
   grid-column: 2/3;
-  justify-self: center;
+  /* justify-self: center; */
 }
 h1 {
   grid-column: 2/3;
+  margin-top: 0;
 }
 
 main {
   margin-top: 4%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 section {
-  min-width: 100%;
-  margin: 0;
   display: grid;
+  place-content: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
-/* #index_citat {
-  grid-column: 2/4;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
-} */
+#index_citat {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  color: #f2efeb;
+  font-size: 125%;
+}

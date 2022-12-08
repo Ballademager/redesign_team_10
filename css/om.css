@@ -80,9 +80,7 @@ video {
 }
 
 #play,
-#stop,
-#slowdown,
-#speedup {
+#stop {
   background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,10 +98,4 @@ video {
 }
 #stop {
   background-image: url("../img/stop.svg");
-}
-#slowdown {
-  background-image: url("../img/slower.svg");
-}
-#speedup {
-  background-image: url("../img/faster.svg");
 }

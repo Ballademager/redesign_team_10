@@ -34,6 +34,7 @@
 #tjek_div {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 5%;
   grid-template-columns: 8fr 1fr;
   margin-bottom: 0;
 }
@@ -44,22 +45,28 @@
 }
 
 #tjek p {
-  letter-spacing: 0.4px;
+  /* letter-spacing: 0.4px; */
   font-size: 110%;
   line-height: 25px;
 }
 
 .tjek_tegn {
-  margin-top: 12%;
-  margin-left: 16%;
-  width: 80%;
-  padding-bottom: 56%;
-  height: auto;
+  /* margin-top: 12%; */
+  /* margin-left: 16%; */
+  width: 50%;
+  display: grid;
+  justify-items: top;
+  /* padding-bottom: 56%; */
+  /* height: auto; */
 }
 
 #review {
+  color: #e5e2de;
   margin-top: 4%;
   margin-left: 10%;
+  background-color: #446174;
+  border-radius: 10px;
+  padding: 2%;
 }
 
 #review q {
@@ -143,5 +150,5 @@ main {
 
 #third {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 1fr;
 }
