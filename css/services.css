@@ -2,6 +2,7 @@ main {
   display: grid;
   grid-template-rows: auto auto auto;
   /* margin: 5%; */
+  margin-bottom: 12%;
 }
 
 #first {
