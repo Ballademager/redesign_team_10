@@ -80,6 +80,7 @@ li {
   max-width: 100%;
   padding: 30px 15px;
   color: #262626;
+  background-color: #f2efeb;
 }
 
 .footer div {
@@ -130,7 +131,7 @@ q {
 }
 
 .body {
-  background-color: #f2efeb;
+  background-color: #ffffff;
 }
 
 .textbox {
