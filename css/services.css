@@ -1,20 +1,32 @@
+main {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  /* margin: 5%; */
+}
+
+#first {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
 #hvorfor {
   margin-left: 11%;
   margin-right: 8%;
 }
 
 #hvorfor p {
-  letter-spacing: 0.4px;
+  /* letter-spacing: 0.4px; */
   font-size: 110%;
   margin-top: 6%;
-  line-height: 25px;
+  line-height: 140%;
 }
 
 #kat {
-  width: 80%;
-  height: auto;
-  display: block;
-  margin-left: 3%;
+  width: 77%;
+  /* height: auto; */
+  /* display: block; */
+  /* margin-left: 3%; */
+  margin-top: 6%;
 }
 
 #second {
@@ -29,6 +41,12 @@
   margin-left: 6%;
   font-size: 135%;
   font-weight: 500;
+}
+
+#third {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 7%;
 }
 
 #tjek_div {
@@ -62,7 +80,7 @@
 
 #review {
   color: #e5e2de;
-  margin-top: 4%;
+  /* margin-top: 4%; */
   margin-left: 10%;
   background-color: #446174;
   border-radius: 10px;
@@ -73,7 +91,7 @@
   letter-spacing: 0.5px;
   font-size: 110%;
   margin-top: 4%;
-  line-height: 25px;
+  line-height: 140%;
   margin-right: 12%;
 }
 
@@ -135,21 +153,4 @@
 }
 .overskrift {
   font-size: 170%;
-}
-
-main {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  margin: 5%;
-}
-
-#first {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-}
-
-#third {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 7%;
 }

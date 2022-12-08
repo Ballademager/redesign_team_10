@@ -32,10 +32,6 @@ header {
   display: block;
 }
 
-main {
-  background-color: #ffffff;
-}
-
 #nav_menu {
   width: 100%;
   display: flex;
@@ -48,7 +44,6 @@ main {
   display: block;
   padding: 7px;
   text-decoration: none;
-
   color: #262626;
   text-align: center;
 }
