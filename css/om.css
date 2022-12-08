@@ -22,13 +22,6 @@ section {
 video {
   max-width: 100%;
 }
-.textbox {
-  background-color: #e5e2de;
-  max-width: 65ch;
-  border-radius: 10px;
-  padding: 3%;
-  line-height: 1.5;
-}
 
 .grid-1_1 {
   display: grid;
