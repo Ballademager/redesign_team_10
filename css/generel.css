@@ -10,6 +10,9 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  border-bottom: solid 2px;
+  border-bottom-color: #426174;
+  padding-bottom: 1%;
 }
 
 .logo {
@@ -54,7 +57,7 @@ li {
   padding-left: 2vw;
   padding-right: 2vw;
   border-left: solid 2px;
-  border-color: #f26430;
+  border-color: #426174;
 }
 
 #nav_menu a {
@@ -128,7 +131,7 @@ q {
 }
 
 .textbox {
-  background-color: #e5e2de;
+  background-color: #f2efeb;
   max-width: 65ch;
   border-radius: 10px;
   padding: 3%;
