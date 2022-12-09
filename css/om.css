@@ -9,7 +9,7 @@ main {
   position: relative;
   display: grid;
   justify-items: center;
-  background-color: #f2efeb;
+  /* background-color: #f2efeb; */
   margin-top: 2%;
 }
 h2 {
