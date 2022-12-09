@@ -2,14 +2,17 @@
   /* grid-column: 1/5; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 4fr;
+  /*grid-template-rows: 1fr 4fr;*/
   padding-bottom: 3%;
+  margin-left: 2%;
+  margin-left: 2%;
 }
 
 #index_billede {
   grid-column: 1/2;
   grid-row: 1/3;
   justify-self: center;
+  width: 81%;
 }
 #index_p {
   grid-column: 2/3;
@@ -23,6 +26,8 @@ h1 {
 
 main {
   margin-top: 4%;
+  display: grid;
+  grid-template-rows: 1.5fr 1fr;
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -68,10 +73,10 @@ section {
     width: 75%;
     font-size: 25px;
   }
-  #index_citat{
+  #index_citat {
     justify-items: center;
   }
-  q{
+  q {
     max-width: 90%;
   }
 }
