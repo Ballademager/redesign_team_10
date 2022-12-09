@@ -2,7 +2,9 @@ main {
   display: grid;
   grid-template-rows: auto auto auto;
   /* margin: 5%; */
-  margin-bottom: 12%;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  margin-right: 6%;
 }
 
 #first {
@@ -13,28 +15,33 @@ main {
 #hvorfor {
   margin-left: 11%;
   margin-right: 8%;
+  margin-top: 5%;
+}
+
+h1 {
+  margin-top: 0;
 }
 
 #hvorfor p {
   /* letter-spacing: 0.4px; */
-  font-size: 110%;
+  /*font-size: 110%;*/
   margin-top: 6%;
   line-height: 140%;
 }
 
-#kat {
-  width: 77%;
+#pic1 {
+  width: 98%;
   /* height: auto; */
   /* display: block; */
   /* margin-left: 3%; */
-  margin-top: 6%;
+  margin-top: 8%;
 }
 
 #second {
   border-style: solid;
   margin-left: 6.5%;
   margin-right: 45%;
-  margin-top: 1%;
+  margin-top: 3%;
   margin-bottom: 1%;
 }
 
@@ -48,12 +55,13 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 7%;
+  margin-top: 3%;
 }
 
 #tjek_div {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  row-gap: 5%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /*row-gap: 0%;*/
   grid-template-columns: 8fr 1fr;
   /* margin-bottom: 0; */
 }
@@ -86,6 +94,7 @@ main {
   background-color: #446174;
   border-radius: 10px;
   padding: 2%;
+  margin-top: 8%;
 }
 
 #review q {
@@ -136,22 +145,27 @@ main {
   grid-row: 7;
 }
 
-#p8,
-#tjek8 {
-  grid-row: 8;
-}
-
 #p1,
 #p2,
 #p3,
 #p4,
 #p5,
 #p6,
-#p7,
-#p8 {
-  margin-bottom: 0;
-  margin-top: 0;
+#p7 {
+  margin-bottom: 0%;
+  margin-top: 2%;
 }
+
+#tjek1,
+#tjek2,
+#tjek3,
+#tjek4,
+#tjek5,
+#tjek6,
+#tjek7 {
+  margin-bottom: 25%;
+}
+
 .overskrift {
   font-size: 170%;
 }
