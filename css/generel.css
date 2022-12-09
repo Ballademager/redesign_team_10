@@ -174,7 +174,7 @@ q {
 
   .logo {
     margin-left: 2%;
-    width: 13%;
+    width: 25%;
   }
   .nav{
     margin-right: 0;
@@ -192,7 +192,7 @@ q {
   }
 
   .col-1 p{
-    font-size: small;
+    font-size: x-small;
   }
   .col-2 p{
     font-size: x-small;
