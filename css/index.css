@@ -40,12 +40,14 @@ section {
 }
 
 /*-----------------------------------------------------------MOBILEVIEW yeehaw---------------------------------------*/
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #index_grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 2fr;
     padding-bottom: 0%;
+    justify-items: center;
+    align-items: center;
   }
   #index_billede {
     grid-column: 1/2;
@@ -64,6 +66,7 @@ section {
     grid-row: 1/2;
     margin-top: 0;
     width: 75%;
+    font-size: 25px;
   }
   #index_citat{
     justify-items: center;

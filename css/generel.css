@@ -15,7 +15,7 @@ header {
   background-color: #ffffff;
   border-bottom: solid 2px;
   border-bottom-color: #426174;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 .logo {
@@ -24,7 +24,8 @@ header {
 }
 
 .nav {
-  margin-right: 15%;
+  margin-top: 30px;
+  margin-right: 10%;
   display: block;
 }
 
@@ -52,7 +53,7 @@ li {
   border-color: #426174;
 }
 
-#lastpoint {
+.lastpoint {
   border-right: solid 2px;
   border-color: #426174;
 }
@@ -163,7 +164,7 @@ q {
 
 
 /*-----------------------------------------------------------MOBILEVIEW yeehaw---------------------------------------*/
-@media (max-width: 600px){
+@media (max-width: 800px){
   .body{
     max-width: 100vw;
   }
