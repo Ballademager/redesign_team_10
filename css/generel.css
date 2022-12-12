@@ -130,11 +130,11 @@ h1,
 h2,
 h3,
 nav {
-  font-family: "Roboto";
+  font-family: "Roboto", cursive;
 }
 
 q {
-  font-family: "Lato";
+  font-family: "Lato", cursive;
 }
 
 .copyright_farve {
