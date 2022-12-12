@@ -104,6 +104,9 @@ h1 {
   line-height: 140%;
   margin-right: 12%;
 }
+#review p {
+  font-size: 110%;
+}
 
 #quote1 {
   margin-top: 8%;

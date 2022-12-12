@@ -65,6 +65,7 @@ video {
   background-color: #426174;
   margin: 0;
   display: grid;
+  padding-bottom: 2%;
   /* justify-content: center; */
 }
 
@@ -89,16 +90,15 @@ video {
   grid-column: 1;
   display: flex;
   margin-top: 1em;
-  gap: 1em;
   justify-content: space-evenly;
 }
 
 #play,
 #stop {
-  background-size: 80%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgb(225, 220, 231);
+  background-color: #e5e2de;
   width: 6%;
   aspect-ratio: 1/1;
   cursor: pointer;
