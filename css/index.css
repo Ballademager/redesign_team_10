@@ -27,8 +27,8 @@ ul {
   margin-left: 2%;
   margin-top: 2%;
   width: 45%;
-  transition: 600ms opacity ease-in-out;
-  transition-delay: 600ms;
+  transition: 1000ms opacity ease-in-out;
+  transition-delay: 1000ms;
 }
 
 .slide > img {
@@ -50,7 +50,7 @@ ul {
   z-index: 2;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
-  margin-top: 19%;
+  margin-top: 18%;
   border-radius: 0.25%;
   padding: 0.2% 0.5%;
   background-color: rgba(0, 0, 0, 0.1);
