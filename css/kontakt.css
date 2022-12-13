@@ -19,11 +19,10 @@ main {
 #first {
   grid-column: 1/2;
   margin-top: 10%;
-  margin-left: 50%;
+  margin-left: 32%;
   margin-bottom: 10%;
-
 }
-#kontakt_box{
+#kontakt_box {
   background-color: #e5e2de;
   border-radius: 10px;
   padding: 3%;
@@ -31,18 +30,18 @@ main {
 
 #second {
   grid-column: 2/3;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 10%;
+  /* margin-bottom: 10%; */
+  margin-top: 14%;
+  margin-left: 3%;
 }
 
 #second img {
-  width: 72%;
+  width: 75%;
   left: 0%;
 }
 
 #in {
-  width: 80%;
+  width: 85%;
   height: auto;
   grid-row: 2;
   margin-left: 25%;
@@ -53,7 +52,7 @@ main {
   margin-top: 2%;
 }
 
-.linkedin{
+.linkedin {
   max-width: 90%;
 }
 
