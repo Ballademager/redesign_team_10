@@ -17,18 +17,20 @@ main {
 }
 
 #first {
-  grid-column: 1;
+  grid-column: 1/2;
   margin-top: 10%;
   margin-left: 50%;
+  margin-bottom: 10%;
 }
 
 #second {
-  grid-column: 2;
+  grid-column: 2/3;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 #second img {
-  width: 50%;
+  width: 60%;
   left: 0%;
 }
 
@@ -44,20 +46,24 @@ main {
   margin-top: 2%;
 }
 
-#linkedin {
+.linkedin{
+  max-width: 90%;
+}
+
+/* #linkedin {
   border-style: solid;
   background-color: rgba(78, 99, 99, 0.178);
   margin-right: 16%;
-}
+} */
 
 h2 {
   margin: 0;
 }
 
-#indhold {
+/* #indhold {
   display: grid;
   grid-template-rows: 1fr 1fr;
   margin: 5%;
   margin-right: 15%;
   margin-bottom: 5%;
-}
+} */
