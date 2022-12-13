@@ -41,7 +41,7 @@ header {
   display: block;
   padding: 7px;
   text-decoration: none;
-  color: #262626;
+  /* color: #262626; */
   text-align: center;
 }
 
@@ -62,6 +62,15 @@ header {
   background-color: #f2efeb;
   color: #f26430;
   cursor: pointer;
+}
+
+.orange_text{
+  color: #f26430;
+  background-color: #f2efeb;
+}
+
+.black_text{
+  color: #262626;
 }
 
 /*hr {
