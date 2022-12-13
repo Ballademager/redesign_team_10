@@ -131,7 +131,7 @@ h1 {
   grid-column: 2/3;
   grid-row: 1;
   margin-top: 0;
-  width: 55%;
+  /*width: 55%;*/
 }
 
 main {
