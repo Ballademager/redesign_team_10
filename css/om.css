@@ -5,6 +5,10 @@
   padding: 0;
 }*/
 
+#last_p {
+  margin-bottom: 0;
+}
+
 #foto1 {
   width: 90%;
   margin-left: 4%;
