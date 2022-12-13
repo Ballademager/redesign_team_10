@@ -17,18 +17,20 @@ main {
 }
 
 #first {
-  grid-column: 1;
+  grid-column: 1/2;
   margin-top: 10%;
   margin-left: 50%;
+  margin-bottom: 10%;
 }
 
 #second {
-  grid-column: 2;
+  grid-column: 2/3;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 #second img {
-  width: 50%;
+  width: 60%;
   left: 0%;
 }
 
