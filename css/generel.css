@@ -45,7 +45,7 @@ header {
   text-align: center;
 }
 
-li {
+.list {
   /*margin-left: 5vw;*/
   padding-left: 2vw;
   padding-right: 2vw;
@@ -53,7 +53,7 @@ li {
   border-color: #426174;
 }
 
-.lastpoint {
+#lastpoint {
   border-right: solid 2px;
   border-color: #426174;
 }
