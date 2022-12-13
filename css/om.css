@@ -21,8 +21,8 @@ main {
   /*justify-items: center;*/
   /* background-color: #f2efeb; */
   margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
 }
 h2 {
   margin-top: 0;
@@ -44,6 +44,8 @@ video {
   /* justify-content: center; */
   /* align-items: center; */
   margin-bottom: 4%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 .grid-3_2 {
   display: grid;
@@ -51,6 +53,8 @@ video {
   grid-template-columns: 3fr 2fr;
   margin-right: 4%;
   /*gap: 1em;*/
+  margin-left: 6%;
+  margin-right: 6%;
 }
 .grid-3_2 img {
   background-size: cover;
