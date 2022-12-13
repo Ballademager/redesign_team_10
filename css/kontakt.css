@@ -44,20 +44,24 @@ main {
   margin-top: 2%;
 }
 
-#linkedin {
+.linkedin{
+  max-width: 90%;
+}
+
+/* #linkedin {
   border-style: solid;
   background-color: rgba(78, 99, 99, 0.178);
   margin-right: 16%;
-}
+} */
 
 h2 {
   margin: 0;
 }
 
-#indhold {
+/* #indhold {
   display: grid;
   grid-template-rows: 1fr 1fr;
   margin: 5%;
   margin-right: 15%;
   margin-bottom: 5%;
-}
+} */
