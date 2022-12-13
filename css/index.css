@@ -27,8 +27,8 @@ ul {
   margin-left: 2%;
   margin-top: 2%;
   width: 45%;
-  transition: 300ms opacity ease-in-out;
-  transition-delay: 300ms;
+  transition: 600ms opacity ease-in-out;
+  transition-delay: 600ms;
 }
 
 .slide > img {
