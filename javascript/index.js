@@ -1,4 +1,4 @@
-const timeinterval = setInterval(nextimages, 3000);
+let timeinterval = setInterval(nextimages, 4000);
 
 const buttons = document.querySelectorAll("[data-carousel-button]");
 
@@ -14,14 +14,17 @@ buttons.forEach((button) => {
 
     slides.children[newIndex].dataset.active = true;
     delete activeSlide.dataset.active;
+    clearInterval(timeinterval);
+    timeinterval = setInterval(nextimages, 4000);
   });
 });
 
 function nextimages() {
-  //const offset = button.dataset.carouselButton === "next" ? 1 : -1;
-  //const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
+  let button = document.querySelector("#carousel");
+  const offset = button.dataset.carouselButton === "next" ? -1 : 1;
+  const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
 
-  //const activeSlide = slides.querySelector("[data-active]");
+  const activeSlide = slides.querySelector("[data-active]");
   let newIndex = [...slides.children].indexOf(activeSlide) + offset;
   if (newIndex < 0) newIndex = slides.children.length - 1;
   if (newIndex >= slides.children.length) newIndex = 0;
@@ -29,8 +32,6 @@ function nextimages() {
   slides.children[newIndex].dataset.active = true;
   delete activeSlide.dataset.active;
 }
-
-clearInterval(timeinterval);
 
 /*const images = ["../img/kim/forside_1.jpg", "../img/kim/forside_2.jpg", "../img/kim/forside_3.jpg", "../img/kim/forside_4.jpg", "../img/kim/forside_5.jpg"];
 const carousel1 = document.querySelector(".carousel1");
