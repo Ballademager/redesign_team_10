@@ -94,7 +94,8 @@ video {
   grid-column: 1;
   display: flex;
   margin-top: 1em;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  justify-content:center;
 }
 
 #play,
@@ -106,14 +107,16 @@ video {
   width: 6%;
   aspect-ratio: 1/1;
   cursor: pointer;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 3px;
   border-radius: 5px;
 }
 
 #play {
   background-image: url("../img/play.svg");
+  margin-right: 5%;
 }
 #stop {
   background-image: url("../img/stop.svg");
+  margin-left: 5%;
 }
