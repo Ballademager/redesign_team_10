@@ -45,7 +45,7 @@ video {
   /* align-items: center; */
   margin-bottom: 4%;
   margin-left: 6%;
-  margin-right: 6%;
+  margin-right: 4%;
 }
 .grid-3_2 {
   display: grid;
@@ -76,17 +76,15 @@ video {
 #video_container {
   aspect-ratio: 16/9;
   justify-self: center;
-  /* width: 100%; */
-  width: 900px;
-  border: 1px rgb(255, 255, 255) solid;
-  /* line-height: 0; */
-  /* margin: auto; */
+  /* width: fit-content; */
+  width: 1000px;
+  /* border: 1px rgb(255, 255, 255) solid; */
   margin-top: 3em;
 }
 
 #video_file {
   max-width: 100%;
-  width: 900px;
+  width: 1000px;
   aspect-ratio: 16/9;
 }
 
@@ -95,7 +93,7 @@ video {
   display: flex;
   margin-top: 1em;
   /* justify-content: space-evenly; */
-  justify-content:center;
+  justify-content: center;
 }
 
 #play,
@@ -107,8 +105,6 @@ video {
   width: 6%;
   aspect-ratio: 1/1;
   cursor: pointer;
-  /* border: 1px solid black; */
-  padding: 3px;
   border-radius: 5px;
 }
 
