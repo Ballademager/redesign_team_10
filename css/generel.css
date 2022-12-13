@@ -60,6 +60,7 @@ header {
 
 #nav_menu a:hover {
   background-color: #f2efeb;
+  border-radius: 10px; 
   color: #f26430;
   cursor: pointer;
 }
@@ -67,6 +68,7 @@ header {
 .orange_text{
   color: #f26430;
   background-color: #f2efeb;
+  border-radius: 10px; 
 }
 
 .black_text{
