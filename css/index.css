@@ -1,5 +1,9 @@
 /*-------------------------Carousel (med klik)--------------------*/
 
+body {
+  overflow-x: hidden;
+}
+
 #carousel {
   width: 100vw;
   height: 100vh;
