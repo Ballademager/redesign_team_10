@@ -1,4 +1,9 @@
 /*----------------------------------HEADER OG FOOTER Wuhuuu------------------------------------------------------*/
+html {
+  --primaryclr: #f2efeb;
+  --secondaryclr: #426174;
+  --accentclr: #f26430;
+}
 
 .body {
   display: grid;
@@ -14,7 +19,7 @@ header {
   align-items: center;
   background-color: #ffffff;
   border-bottom: solid 2px;
-  border-bottom-color: #426174;
+  border-bottom-color: var(--secondaryclr);
   padding-bottom: 2%;
 }
 
@@ -50,7 +55,7 @@ header {
   padding-left: 2vw;
   padding-right: 2vw;
   border-left: solid 2px;
-  border-color: #426174;
+  border-color: var(--secondaryclr);
 }
 
 #lastpoint {
@@ -59,19 +64,19 @@ header {
 }
 
 #nav_menu a:hover {
-  background-color: #f2efeb;
-  border-radius: 10px; 
-  color: #f26430;
+  background-color: var(--primaryclr);
+  border-radius: 10px;
+  color: var(--accentclr);
   cursor: pointer;
 }
 
-.orange_text{
-  color: #f26430;
-  background-color: #f2efeb;
-  border-radius: 10px; 
+.orange_text {
+  color: var(--accentclr);
+  background-color: var(--primaryclr);
+  border-radius: 10px;
 }
 
-.black_text{
+.black_text {
   color: #262626;
 }
 
@@ -85,7 +90,7 @@ header {
   display: flex;
   /* max-width: 100%; */
   color: #262626;
-  background-color: #f2efeb;
+  background-color: var(--primaryclr);
   padding-left: 1%;
 }
 
@@ -144,7 +149,7 @@ nav {
   font-family: "Roboto", cursive;
 }
 
-h1{
+h1 {
   font-size: xx-large;
 }
 
@@ -161,13 +166,13 @@ q {
 }
 
 .textbox {
-  background-color: #e5e2de;
+  background-color: var(--primaryclr);
   border-radius: 10px;
   padding: 3%;
   line-height: 1.5;
 }
 .titelbox {
-  background-color: #e5e2de;
+  background-color: var(--primaryclr);
   border-radius: 10px;
   padding: 2%;
 }
@@ -176,7 +181,7 @@ q {
   display: grid;
   margin: 0;
   width: 100%;
-  background-color: #426174;
+  background-color: var(--secondaryclr);
   margin: 0;
 }
 
