@@ -68,6 +68,7 @@ ul {
 
 .carousel-button.prev {
   left: 5%;
+  background-image: url();
 }
 .carousel-button.next {
   left: 46%;
