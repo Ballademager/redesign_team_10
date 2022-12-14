@@ -180,6 +180,13 @@ section {
   color: #f2efeb;
   font-size: 125%;
 }
+#citat_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
 /*-----------------------------------------------------------MOBILEVIEW yeehaw---------------------------------------*/
 @media (max-width: 800px) {
